@@ -1,0 +1,22 @@
+body {
+	color: red;
+}
+header {
+	background-color: #000;
+	background: url(../img/back-image.png) no-repeat;
+	width: 100%;
+}
+header nav li {
+	display: inline;
+}
+h1 {
+	width: 100%;
+	border: 1px solid green;
+}
+article {
+	height: 400px;
+	width: 100%;
+}
+article:nth-child(odd) {
+	background-color: #000;
+}
