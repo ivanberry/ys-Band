@@ -7,7 +7,7 @@
 学习并练习bootstrap,awesome font,normalize.css,animate.css，希望在一周内完成。
 
 + [x] 完成页面的基本布局设计
-+ [ ] 素材准备
++ [x] 素材准备
 + [ ] 基本切图完成
 + [ ] css美化
 + [ ] 跨器测试
