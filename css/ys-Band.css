@@ -15,6 +15,7 @@ header button, header a img {
 }
 .navbar {
 	min-height: 80px;
+	margin-bottom: 0;
 }
 header navbar-bar {
 }
@@ -27,14 +28,44 @@ header h1 {
 header img {
 	margin-top: -20px;
 }
-
-#ys-nav {
-}
 header .fa-bars {
 	color: #fff;
 }
 article {
 	width: 100%;
-	border: 1px solid green;
-	padding-bottom: 1.2em;
+	padding: 0;
+	margin: 0;
+}
+article:first-child {
+	padding-top: 0;
+}
+article .img-responsive {
+	margin-bottom: 0;
+	width: 100%;
+}
+.social-links {
+	background-color: #000;
+}
+.social-links-list {
+	text-align: center;
+	padding-left: 0;   /*overwiter the normalize.css article ul padding-left values*/
+	w
+}
+.social-links-list li {
+	display: inline-table;
+	padding-left: 1em;
+}
+.carousel-indicators li {
+	background-color: #a3ef2f;
+}
+.fa-angle-right, .fa-angle-left {
+	position: absolute;
+	top: 50%;
+	right: 50%;
+	margin-right: -10px;
+	margin-top: -25px;
+}
+.copyright {
+	margin-left: auto;
+	margin-right: auto;
 }
