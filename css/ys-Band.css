@@ -34,7 +34,7 @@ header .fa-bars {
 article {
 	width: 100%;
 	padding: 0;
-	margin: 0;
+	margin-bottom: 1em;  //margin for desigin
 }
 article:first-child {
 	padding-top: 0;
@@ -43,8 +43,24 @@ article .img-responsive {
 	margin-bottom: 0;
 	width: 100%;
 }
+.carousel-inner .item img {
+	width: 100%;
+}
+.mates {
+	border: 1px solid blue;
+}
 .social-links {
 	background-color: #000;
+}
+.video-modal {
+	text-align: center;
+	position: absolute;
+	top: 30%;
+}
+#video-modal {
+	max-width: 100%;
+	margin-left: auto; //prevent the video to fullscreen
+	margin-right: auto;
 }
 .social-links-list {
 	text-align: center;
@@ -69,3 +85,4 @@ article .img-responsive {
 	margin-left: auto;
 	margin-right: auto;
 }
+
